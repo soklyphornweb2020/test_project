@@ -14,7 +14,7 @@ body{
     height: 75px;
     padding: 7px 0;
     box-sizing: border-box;
-    border-bottom: 3px solid green;
+    border-bottom: 3px solid #009444;;
     font-size: 20px;
 }
 .nav-bar ul{
@@ -28,7 +28,7 @@ body{
     text-align: center;
     cursor: pointer;
     color: white;
-    margin-top: 20px;
+    margin-top: 18px;
 }
 .box{
     background-color: #949393;
@@ -36,39 +36,43 @@ body{
     text-align: center;
 }
 .text{
-    text-align: center;
+    margin-left: 400px;
     color: #f57f17;
-}
-/* .box-picture{
-    display: flex;
-} */
-img{
-    margin-left: 10px;
 }
 li a:hover{
     background-color: teal;
 }
-.col-4{
-    float: left;
-    padding: 63px;
-}
-.footer{
-    margin: 0;
-    margin-top: 1200px;
-    background: green;
-    text-align: center;
-    color: white;
-}
-h3{
-    color:  #f57f17;
-}
-.box1{
-    margin-left: 70px;
-}
-.box2{
-    margin-left: 100px;
-}
-.box3{
-    margin-left: 120px;
-}
+@font-face {
+    font-family: KhmerOSMuolLight;
+    src: url('./fonts/KhmerOS.ttf');
+  }
+  @font-face {
+    font-family: KhmerOSContent;
+    src: url('./fonts/KhmerOS.ttf');
+  }
+  .alignleft{
+      display: inline;
+      float: left;
+      margin-right: 1.5em;
+  }
+  img{
+      vertical-align: middle;
+      height: auto;
+      max-width: 100%;
+  }
+  .box-header{
+    background-color:  #f47324;
+    font-family: KhmerOSMuolLight;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .footer{
+    background-color: #009444;
+  }
+  .search-form{
+      margin-left: 290px;
+      padding-top: 15px;
+      
+  }
+
+
 
